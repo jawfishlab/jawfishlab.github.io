@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>APAC Regulation Monitor</title>
+  <meta name="description" content="APAC金融規制当局の公式公表のうち、サイバーセキュリティ／AI／個人情報保護に関するものの一覧">
+  <link rel="alternate" type="application/rss+xml" title="APAC Regulation Monitor" href="feed.xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="title-row">
+        <h1>APAC Regulation Monitor</h1>
+        <a class="rss" href="feed.xml">RSS</a>
+      </div>
+      <p class="tagline">アジア太平洋の金融規制当局による公式公表のうち、サイバーセキュリティ・AI・個人情報保護に関するもの</p>
+      <dl class="meta">
+        <div><dt>収録期間</dt><dd id="meta-range">—</dd></div>
+        <div><dt>総件数</dt><dd id="meta-count">—</dd></div>
+        <div><dt>データ更新</dt><dd id="meta-generated">—</dd></div>
+        <div><dt>次回更新予定</dt><dd>毎日 10:15 JST 目安</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p class="notice" role="note">本一覧は各国当局の公式公表を自動収集し、ルールベースで分類・抽出したものです。欠落や誤りがあり得ます。正確な内容は必ず出典（公式公表）で確認してください。</p>
+
+    <form class="filters" id="filters" role="search" onsubmit="return false">
+      <label class="field search">
+        <span>検索</span>
+        <input type="search" id="q" placeholder="タイトル・原文抜粋・当局名" autocomplete="off">
+      </label>
+      <label class="field">
+        <span>国・地域</span>
+        <select id="f-country"><option value="">すべて</option></select>
+      </label>
+      <label class="field">
+        <span>トピック</span>
+        <select id="f-topic"><option value="">すべて</option></select>
+      </label>
+      <label class="field">
+        <span>段階</span>
+        <select id="f-stage"><option value="">すべて</option></select>
+      </label>
+      <label class="check">
+        <input type="checkbox" id="f-recent">
+        <span>過去24時間に追加・更新されたもののみ</span>
+      </label>
+      <button type="button" class="reset" id="reset">条件をクリア</button>
+    </form>
+
+    <p class="status" id="status" aria-live="polite">読み込み中…</p>
+
+    <div class="table-scroll">
+      <table class="updates" id="table">
+        <thead>
+          <tr>
+            <th scope="col" class="c-date"><button type="button" data-sort="date">日付</button></th>
+            <th scope="col" class="c-title"><button type="button" data-sort="title">タイトル／原文抜粋</button></th>
+            <th scope="col" class="c-src"><button type="button" data-sort="country">国・当局</button></th>
+            <th scope="col" class="c-topic"><button type="button" data-sort="topic">トピック</button></th>
+            <th scope="col" class="c-stage"><button type="button" data-sort="stage">段階</button></th>
+            <th scope="col" class="c-link">出典</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+
+    <div class="more-row">
+      <button type="button" id="more" hidden>さらに表示</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>データ：<a href="data/updates.json">updates.json</a>（schema v1）・<a href="feed.xml">RSS</a>。「原文抜粋」は公表本文の冒頭を原文の言語のまま機械的に抜き出したもので、翻訳・要約ではありません。</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
