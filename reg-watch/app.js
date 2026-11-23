@@ -4,6 +4,7 @@
   var DATA_URL = "data/updates.json";
   var PAGE_SIZE = 30;
   var DAY_MS = 24 * 60 * 60 * 1000;
+  var MONTHS = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
 
   // Display labels only. Classification lives entirely in the JSON.
   var TOPIC_LABELS = {
@@ -39,6 +40,8 @@
     country: document.getElementById("f-country"),
     topic: document.getElementById("f-topic"),
     stage: document.getElementById("f-stage"),
+    year: document.getElementById("f-year"),
+    month: document.getElementById("f-month"),
     recent: document.getElementById("f-recent"),
     reset: document.getElementById("reset"),
     rows: document.getElementById("rows"),
@@ -91,6 +94,17 @@
     });
   }
 
+  // Returns { year: "YYYY", month: "MM" } for a YYYY-MM-DD published_at, or null
+  // when it is missing or cannot be read as a real calendar date.
+  function publishedYearMonth(value) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value || "");
+    if (!m) return null;
+    var y = +m[1], mo = +m[2], d = +m[3];
+    var date = new Date(Date.UTC(y, mo - 1, d));
+    if (date.getUTCFullYear() !== y || date.getUTCMonth() !== mo - 1 || date.getUTCDate() !== d) return null;
+    return { year: m[1], month: m[2] };
+  }
+
   function searchText(item) {
     return [item.title, item.title_ja || "", item.summary_ja, item.regulator,
       item.country_name, countryLabel(item.country_code)].join("\n").toLowerCase();
@@ -102,6 +116,8 @@
       country: el.country.value,
       topic: el.topic.value,
       stage: el.stage.value,
+      year: el.year.value,
+      month: el.month.value,
       recent: el.recent.checked
     };
   }
@@ -113,6 +129,13 @@
       if (f.country && item.country_code !== f.country) return false;
       if (f.topic && item.topics.indexOf(f.topic) === -1) return false;
       if (f.stage && item.stage !== f.stage) return false;
+      if (f.year || f.month) {
+        // Undated or unparseable items only drop out once a year or month is chosen.
+        var ym = item._ym;
+        if (!ym) return false;
+        if (f.year && ym.year !== f.year) return false;
+        if (f.month && ym.month !== f.month) return false;
+      }
       if (f.recent) {
         var touched = Date.parse(item.updated_at || item.collected_at);
         if (!(touched >= cutoff)) return false;
@@ -232,6 +255,7 @@
   function init(data) {
     state.items = data.items.map(function (item) {
       item._search = searchText(item);
+      item._ym = publishedYearMonth(item.published_at);
       return item;
     });
     setHeader(data);
@@ -243,13 +267,16 @@
     });
     fillSelect(el.topic, Object.keys(TOPIC_LABELS), function (t) { return TOPIC_LABELS[t]; });
     fillSelect(el.stage, Object.keys(STAGE_LABELS), function (s) { return STAGE_LABELS[s]; });
+    fillSelect(el.year, uniq(state.items.map(function (i) { return i._ym && i._ym.year; }).filter(Boolean)).sort().reverse(),
+      function (y) { return y + "年"; });
+    fillSelect(el.month, MONTHS, function (m) { return (+m) + "月"; });
 
     var timer = null;
     el.q.addEventListener("input", function () {
       clearTimeout(timer);
       timer = setTimeout(resetPaging, 120);
     });
-    [el.country, el.topic, el.stage, el.recent].forEach(function (control) {
+    [el.country, el.topic, el.stage, el.year, el.month, el.recent].forEach(function (control) {
       control.addEventListener("change", resetPaging);
     });
     el.reset.addEventListener("click", function () {
@@ -257,6 +284,8 @@
       el.country.value = "";
       el.topic.value = "";
       el.stage.value = "";
+      el.year.value = "";
+      el.month.value = "";
       el.recent.checked = false;
       resetPaging();
     });

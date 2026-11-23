@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T13:36:09Z",
+  "generated_at": "2026-11-23T14:01:37Z",
   "item_count": 13,
   "filtered_out_count": 89,
   "sources": [
@@ -35,30 +35,6 @@
   ],
   "items": [
     {
-      "id": "asic_au-d272b5a507b88075",
-      "source_id": "asic_au",
-      "country_code": "AU",
-      "country_name": "Australia",
-      "regulator": "ASIC",
-      "title": "26-286MR ASIC to target cost of living and tech-related consumer harm in 2027",
-      "title_ja": null,
-      "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-286mr-asic-to-target-cost-of-living-and-tech-related-consumer-harm-in-2027",
-      "published_at": "2026-11-23",
-      "collected_at": "2026-11-18T08:34:41Z",
-      "updated_at": "2026-11-23T13:36:09Z",
-      "topics": [
-        "ai"
-      ],
-      "stage": "unknown",
-      "summary_ja": "ASIC will target financial misconduct that adds to cost of living pressures and the use of AI and other technology that causes consumer harm as part of its new enforcement priorities for 2027 .",
-      "summary_method": "extractive",
-      "related_ids": [],
-      "legacy_labels": [
-        "Category: RegulatoryUpdate",
-        "Domain: Banking"
-      ]
-    },
-    {
       "id": "mas_sg-dcf570536c3f73b6",
       "source_id": "mas_sg",
       "country_code": "SG",
@@ -75,6 +51,30 @@
       ],
       "stage": "unknown",
       "summary_ja": "MAS and the Future of Finance Institute (FFI) jointly announced initiatives in support of the National AI Missions for financial services. These were set out by Mr Gan Kim Yong, Deputy Prime Minister and Minister for Energy, Trade and Industry (Trade), and Chairman of MAS at the Singapore FinTech F…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: RegulatoryUpdate",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "asic_au-d272b5a507b88075",
+      "source_id": "asic_au",
+      "country_code": "AU",
+      "country_name": "Australia",
+      "regulator": "ASIC",
+      "title": "26-286MR ASIC to target cost of living and tech-related consumer harm in 2027",
+      "title_ja": null,
+      "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-286mr-asic-to-target-cost-of-living-and-tech-related-consumer-harm-in-2027",
+      "published_at": "2026-11-17",
+      "collected_at": "2026-11-18T08:34:41Z",
+      "updated_at": "2026-11-23T14:01:37Z",
+      "topics": [
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "ASIC will target financial misconduct that adds to cost of living pressures and the use of AI and other technology that causes consumer harm as part of its new enforcement priorities for 2027 .",
       "summary_method": "extractive",
       "related_ids": [],
       "legacy_labels": [
