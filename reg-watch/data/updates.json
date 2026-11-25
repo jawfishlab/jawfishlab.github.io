@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T10:58:19Z",
-  "item_count": 13,
-  "filtered_out_count": 89,
+  "generated_at": "2026-11-25T09:53:25Z",
+  "item_count": 14,
+  "filtered_out_count": 108,
   "sources": [
     {
       "source_id": "mas_sg",
@@ -31,6 +31,20 @@
       "country_name": "Australia",
       "regulator": "ASIC",
       "listing_url": "https://www.asic.gov.au/newsroom/media-releases/"
+    },
+    {
+      "source_id": "ojk_id",
+      "country_code": "ID",
+      "country_name": "Indonesia",
+      "regulator": "OJK",
+      "listing_url": "https://ojk.go.id/en/berita-dan-kegiatan/siaran-pers/"
+    },
+    {
+      "source_id": "bi_id",
+      "country_code": "ID",
+      "country_name": "Indonesia",
+      "regulator": "BI",
+      "listing_url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/"
     }
   ],
   "items": [
@@ -104,6 +118,34 @@
       "legacy_labels": [
         "Category: RegulatoryUpdate",
         "Domain: Banking"
+      ]
+    },
+    {
+      "id": "bi_id-be6a183c5e145183",
+      "source_id": "bi_id",
+      "country_code": "ID",
+      "country_name": "Indonesia",
+      "regulator": "BI",
+      "title": "Bank Indonesia and Bangko Sentral ng Pilipinas Expand Strategic Cooperation",
+      "title_ja": null,
+      "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_2824826.aspx",
+      "published_at": "2026-11-13",
+      "collected_at": "2026-11-25T09:53:25Z",
+      "updated_at": "2026-11-25T09:53:25Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "The Bangko Sentral ng Pilipinas (BSP) and Bank Indonesia (BI) signed a memorandum of understanding (MOU) to deepen the bilateral cooperation between the two central banks. The MOU was signed by BSP Governor Eli M. Remolona, Jr. and BI Governor Destry Damayanti on 13 November 2026.",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: AML",
+        "Category: FinancialCrime",
+        "Domain: Compliance"
       ]
     },
     {

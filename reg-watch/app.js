@@ -2,6 +2,7 @@
   "use strict";
 
   var DATA_URL = "data/updates.json";
+  var STATUS_URL = "data/status.json";
   var PAGE_SIZE = 30;
   var DAY_MS = 24 * 60 * 60 * 1000;
   var MONTHS = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
@@ -24,7 +25,9 @@
     SG: "シンガポール",
     HK: "香港",
     JP: "日本",
-    AU: "オーストラリア"
+    AU: "オーストラリア",
+    MY: "マレーシア",
+    ID: "インドネシア"
   };
 
   var state = {
@@ -50,6 +53,7 @@
     range: document.getElementById("meta-range"),
     count: document.getElementById("meta-count"),
     generated: document.getElementById("meta-generated"),
+    checked: document.getElementById("meta-checked"),
     sortButtons: document.querySelectorAll("th button[data-sort]")
   };
 
@@ -308,6 +312,21 @@
 
     render();
   }
+
+  // "最終確認" comes from a separate heartbeat file that every run rewrites.
+  // It is optional: on any failure only that line stays "—".
+  fetch(STATUS_URL, { cache: "no-cache" })
+    .then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    })
+    .then(function (status) {
+      var iso = status && status.last_checked_at;
+      el.checked.textContent = typeof iso === "string" && !isNaN(Date.parse(iso)) ? formatJst(iso) : "—";
+    })
+    .catch(function () {
+      el.checked.textContent = "—";
+    });
 
   fetch(DATA_URL, { cache: "no-cache" })
     .then(function (res) {
