@@ -14,14 +14,6 @@
     ai: "AI",
     privacy_data_protection: "個人情報保護"
   };
-  var STAGE_LABELS = {
-    consultation: "意見募集",
-    final_rule: "規則確定",
-    guidance: "ガイダンス",
-    enforcement: "処分・執行",
-    announcement: "発表",
-    unknown: "不明"
-  };
   var COUNTRY_LABELS = {
     SG: "シンガポール",
     HK: "香港",
@@ -46,7 +38,6 @@
     q: document.getElementById("q"),
     country: document.getElementById("f-country"),
     topic: document.getElementById("f-topic"),
-    stage: document.getElementById("f-stage"),
     year: document.getElementById("f-year"),
     month: document.getElementById("f-month"),
     recent: document.getElementById("f-recent"),
@@ -61,6 +52,7 @@
     sources: document.getElementById("meta-sources"),
     sortButtons: document.querySelectorAll("th button[data-sort]")
   };
+  var COLUMN_COUNT = document.querySelectorAll("#table thead th").length;
 
   function countryLabel(code, fallback) {
     return COUNTRY_LABELS[code] || fallback || code;
@@ -124,7 +116,6 @@
       q: el.q.value.trim().toLowerCase(),
       country: el.country.value,
       topic: el.topic.value,
-      stage: el.stage.value,
       year: el.year.value,
       month: el.month.value,
       recent: el.recent.checked
@@ -137,7 +128,6 @@
     return items.filter(function (item) {
       if (f.country && item.country_code !== f.country) return false;
       if (f.topic && item.topics.indexOf(f.topic) === -1) return false;
-      if (f.stage && item.stage !== f.stage) return false;
       if (f.year || f.month) {
         // Undated or unparseable items only drop out once a year or month is chosen.
         var ym = item._ym;
@@ -165,7 +155,6 @@
       case "title": return item.title.toLowerCase();
       case "country": return item.country_code + " " + item.regulator;
       case "topic": return item.topics.map(function (t) { return TOPIC_LABELS[t] || t; }).join(",");
-      case "stage": return STAGE_LABELS[item.stage] || item.stage;
       default: return "";
     }
   }
@@ -213,8 +202,6 @@
     });
     tr.appendChild(topics);
 
-    tr.appendChild(make("td", { className: "c-stage stage-" + item.stage }, STAGE_LABELS[item.stage] || item.stage));
-
     var linkCell = make("td", { className: "c-link" });
     linkCell.appendChild(make("a", { href: item.url, rel: "noopener", target: "_blank", "aria-label": "出典を開く: " + item.title }, "公式公表"));
     tr.appendChild(linkCell);
@@ -230,7 +217,8 @@
     visible.forEach(function (item) { frag.appendChild(renderRow(item)); });
     if (!visible.length) {
       var tr = make("tr", { className: "empty" });
-      tr.appendChild(make("td", { colspan: "6" }, "条件に一致する公表はありません。"));
+      // Span every header column, so the message stays centred if columns change.
+      tr.appendChild(make("td", { colspan: String(COLUMN_COUNT) }, "条件に一致する公表はありません。"));
       frag.appendChild(tr);
     }
     el.rows.appendChild(frag);
@@ -275,7 +263,6 @@
       return countryLabel(code, src[0] && src[0].country_name) + "（" + regs + "）";
     });
     fillSelect(el.topic, Object.keys(TOPIC_LABELS), function (t) { return TOPIC_LABELS[t]; });
-    fillSelect(el.stage, Object.keys(STAGE_LABELS), function (s) { return STAGE_LABELS[s]; });
     fillSelect(el.year, uniq(state.items.map(function (i) { return i._ym && i._ym.year; }).filter(Boolean)).sort().reverse(),
       function (y) { return y + "年"; });
     fillSelect(el.month, MONTHS, function (m) { return (+m) + "月"; });
@@ -285,14 +272,13 @@
       clearTimeout(timer);
       timer = setTimeout(resetPaging, 120);
     });
-    [el.country, el.topic, el.stage, el.year, el.month, el.recent].forEach(function (control) {
+    [el.country, el.topic, el.year, el.month, el.recent].forEach(function (control) {
       control.addEventListener("change", resetPaging);
     });
     el.reset.addEventListener("click", function () {
       el.q.value = "";
       el.country.value = "";
       el.topic.value = "";
-      el.stage.value = "";
       el.year.value = "";
       el.month.value = "";
       el.recent.checked = false;

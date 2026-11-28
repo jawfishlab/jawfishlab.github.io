@@ -192,7 +192,7 @@ a:focus-visible {
 
 table.updates {
   width: 100%;
-  min-width: 860px;
+  min-width: 764px;
   border-collapse: collapse;
 }
 
@@ -239,7 +239,6 @@ table.updates {
 .c-title { min-width: 380px; }
 .c-src { width: 130px; }
 .c-topic { width: 150px; }
-.c-stage { width: 96px; font-size: 13.5px; }
 .c-link { width: 84px; white-space: nowrap; font-size: 13.5px; }
 
 .title a {
@@ -283,8 +282,6 @@ table.updates {
 .topic-cyber_security { color: var(--cyber); }
 .topic-ai { color: var(--ai); }
 .topic-privacy_data_protection { color: var(--privacy); }
-
-.stage-unknown { color: var(--ink-faint); }
 
 tr.empty td {
   text-align: center;
