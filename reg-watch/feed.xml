@@ -5,7 +5,7 @@
     <link>https://jawfishlab.com/reg-watch/</link>
     <description>APAC金融規制当局の公式公表のうち、サイバーセキュリティ／AI／個人情報保護に関するものの一覧</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 28 Nov 2026 08:50:40 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 12:07:09 GMT</lastBuildDate>
     <item>
       <title>[IN/RBI] RBI Issues Amendment Directions on ‘Suspected Money Mule Accounts to Prevent Cyber-enabled Financial Frauds’</title>
       <link>https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64062</link>
@@ -13,14 +13,6 @@
       <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
       <description>The Reserve Bank had issued the draft Reserve Bank of India (Know Your Customer) Amendment Directions, 2026 on September 11, 2026, for seeking feedback from stakeholders. The draft Amendment Directions proposed a Standard Operating Procedure (SOP) laying down a uniform, time-bound procedure for ban…</description>
       <category>cyber_security</category>
-    </item>
-    <item>
-      <title>[AU/ASIC] 26-286MR ASIC to target cost of living and tech-related consumer harm in 2027</title>
-      <link>https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-286mr-asic-to-target-cost-of-living-and-tech-related-consumer-harm-in-2027</link>
-      <guid isPermaLink="false">asic_au-d272b5a507b88075</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
-      <description>ASIC will target financial misconduct that adds to cost of living pressures and the use of AI and other technology that causes consumer harm as part of its new enforcement priorities for 2027 .</description>
-      <category>ai</category>
     </item>
     <item>
       <title>[IN/RBI] Governor, Reserve Bank of India meets Chairpersons and Managing Directors &amp; Chief Executive Officers of select UCBs and Industry Representatives in Mumbai on November 23, 2026</title>
@@ -37,6 +29,14 @@
       <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
       <description>As part of the Reserve Bank’s ongoing engagement with regulated entities, the Governor, Reserve Bank of India, today met in Mumbai with the Managing Directors and Chief Executive Officers (MDs &amp; CEOs) of select Non-Banking Financial Companies (NBFCs), including Government NBFCs, Housing Finance Com…</description>
       <category>cyber_security</category>
+    </item>
+    <item>
+      <title>[AU/ASIC] 26-286MR ASIC to target cost of living and tech-related consumer harm in 2027</title>
+      <link>https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-286mr-asic-to-target-cost-of-living-and-tech-related-consumer-harm-in-2027</link>
+      <guid isPermaLink="false">asic_au-d272b5a507b88075</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+      <description>ASIC will target financial misconduct that adds to cost of living pressures and the use of AI and other technology that causes consumer harm as part of its new enforcement priorities for 2027 .</description>
+      <category>ai</category>
     </item>
     <item>
       <title>[SG/MAS] MAS and Future of Finance Institute Set Out Initiatives in Support of National AI Missions for Financial Services</title>
@@ -95,19 +95,10 @@
       <category>ai</category>
     </item>
     <item>
-      <title>[AU/ASIC] 26-201MR ASIC and APRA warn frontier AI awareness must turn to action</title>
-      <link>https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-201mr-asic-and-apra-warn-frontier-ai-awareness-must-turn-to-action</link>
-      <guid isPermaLink="false">asic_au-4884c1812ad2f2cf</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
-      <description>The Australian Securities and Investments Commission (ASIC) and the Australian Prudential Regulation Authority (APRA) are urging financial market entities to move from gaining awareness of risks linked to frontier AI to taking decisive action.</description>
-      <category>cyber_security</category>
-      <category>ai</category>
-    </item>
-    <item>
       <title>[AU/ASIC] 26-244MR Fortnum Private Wealth penalised $1.35 million for cybersecurity failures</title>
       <link>https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-244mr-fortnum-private-wealth-penalised-135-million-for-cybersecurity-failures</link>
       <guid isPermaLink="false">asic_au-ad7c783a27cdea4b</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
       <description>Fortnum Private Wealth Ltd has been ordered by the Supreme Court of NSW to pay a $1.35 million penalty after admitting it failed to adequately manage cybersecurity risks across its financial advice network.</description>
       <category>cyber_security</category>
     </item>
@@ -123,8 +114,17 @@
       <title>[AU/ASIC] 26-226MR ASIC strengthens AI trading safeguards and streamlines market integrity rules</title>
       <link>https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-226mr-asic-strengthens-ai-trading-safeguards-and-streamlines-market-integrity-rules</link>
       <guid isPermaLink="false">asic_au-0d68e2f5e22ca284</guid>
-      <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
       <description>ASIC is strengthening safeguards for automated and AI-enabled trading while streamlining regulatory requirements for securities and futures market participants under incoming changes to its Market Integrity Rules (MIRs).</description>
+      <category>ai</category>
+    </item>
+    <item>
+      <title>[AU/ASIC] 26-201MR ASIC and APRA warn frontier AI awareness must turn to action</title>
+      <link>https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-201mr-asic-and-apra-warn-frontier-ai-awareness-must-turn-to-action</link>
+      <guid isPermaLink="false">asic_au-4884c1812ad2f2cf</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 GMT</pubDate>
+      <description>The Australian Securities and Investments Commission (ASIC) and the Australian Prudential Regulation Authority (APRA) are urging financial market entities to move from gaining awareness of risks linked to frontier AI to taking decisive action.</description>
+      <category>cyber_security</category>
       <category>ai</category>
     </item>
     <item>

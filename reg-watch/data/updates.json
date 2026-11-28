@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T08:50:40Z",
+  "generated_at": "2026-11-28T12:07:09Z",
   "item_count": 19,
   "filtered_out_count": 234,
   "sources": [
@@ -95,30 +95,6 @@
       ]
     },
     {
-      "id": "asic_au-d272b5a507b88075",
-      "source_id": "asic_au",
-      "country_code": "AU",
-      "country_name": "Australia",
-      "regulator": "ASIC",
-      "title": "26-286MR ASIC to target cost of living and tech-related consumer harm in 2027",
-      "title_ja": null,
-      "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-286mr-asic-to-target-cost-of-living-and-tech-related-consumer-harm-in-2027",
-      "published_at": "2026-11-23",
-      "collected_at": "2026-11-18T08:34:41Z",
-      "updated_at": "2026-11-24T10:58:19Z",
-      "topics": [
-        "ai"
-      ],
-      "stage": "unknown",
-      "summary_ja": "ASIC will target financial misconduct that adds to cost of living pressures and the use of AI and other technology that causes consumer harm as part of its new enforcement priorities for 2027 .",
-      "summary_method": "extractive",
-      "related_ids": [],
-      "legacy_labels": [
-        "Category: RegulatoryUpdate",
-        "Domain: Banking"
-      ]
-    },
-    {
       "id": "rbi_in-4139e7a87cc24b8e",
       "source_id": "rbi_in",
       "country_code": "IN",
@@ -165,6 +141,30 @@
       "legacy_labels": [
         "Category: CyberResilience",
         "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "asic_au-d272b5a507b88075",
+      "source_id": "asic_au",
+      "country_code": "AU",
+      "country_name": "Australia",
+      "regulator": "ASIC",
+      "title": "26-286MR ASIC to target cost of living and tech-related consumer harm in 2027",
+      "title_ja": null,
+      "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-286mr-asic-to-target-cost-of-living-and-tech-related-consumer-harm-in-2027",
+      "published_at": "2026-11-18",
+      "collected_at": "2026-11-18T08:34:41Z",
+      "updated_at": "2026-11-28T12:07:09Z",
+      "topics": [
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "ASIC will target financial misconduct that adds to cost of living pressures and the use of AI and other technology that causes consumer harm as part of its new enforcement priorities for 2027 .",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: RegulatoryUpdate",
         "Domain: Banking"
       ]
     },
@@ -343,32 +343,6 @@
       ]
     },
     {
-      "id": "asic_au-4884c1812ad2f2cf",
-      "source_id": "asic_au",
-      "country_code": "AU",
-      "country_name": "Australia",
-      "regulator": "ASIC",
-      "title": "26-201MR ASIC and APRA warn frontier AI awareness must turn to action",
-      "title_ja": null,
-      "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-201mr-asic-and-apra-warn-frontier-ai-awareness-must-turn-to-action",
-      "published_at": "2026-10-21",
-      "collected_at": "2026-11-15T13:15:01Z",
-      "updated_at": "2026-11-15T13:23:59Z",
-      "topics": [
-        "cyber_security",
-        "ai"
-      ],
-      "stage": "unknown",
-      "summary_ja": "The Australian Securities and Investments Commission (ASIC) and the Australian Prudential Regulation Authority (APRA) are urging financial market entities to move from gaining awareness of risks linked to frontier AI to taking decisive action.",
-      "summary_method": "extractive",
-      "related_ids": [],
-      "legacy_labels": [
-        "Category: CyberResilience",
-        "Category: Forensics",
-        "Domain: Banking"
-      ]
-    },
-    {
       "id": "asic_au-ad7c783a27cdea4b",
       "source_id": "asic_au",
       "country_code": "AU",
@@ -377,9 +351,9 @@
       "title": "26-244MR Fortnum Private Wealth penalised $1.35 million for cybersecurity failures",
       "title_ja": null,
       "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-244mr-fortnum-private-wealth-penalised-135-million-for-cybersecurity-failures",
-      "published_at": "2026-10-13",
+      "published_at": "2026-10-14",
       "collected_at": "2026-11-15T13:15:01Z",
-      "updated_at": "2026-11-15T13:15:01Z",
+      "updated_at": "2026-11-28T12:07:09Z",
       "topics": [
         "cyber_security"
       ],
@@ -427,9 +401,9 @@
       "title": "26-226MR ASIC strengthens AI trading safeguards and streamlines market integrity rules",
       "title_ja": null,
       "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-226mr-asic-strengthens-ai-trading-safeguards-and-streamlines-market-integrity-rules",
-      "published_at": "2026-09-23",
+      "published_at": "2026-09-24",
       "collected_at": "2026-11-15T13:23:59Z",
-      "updated_at": "2026-11-15T13:23:59Z",
+      "updated_at": "2026-11-28T12:07:09Z",
       "topics": [
         "ai"
       ],
@@ -443,6 +417,32 @@
         "Domain: Compliance",
         "Category: AML",
         "Category: FinancialCrime"
+      ]
+    },
+    {
+      "id": "asic_au-4884c1812ad2f2cf",
+      "source_id": "asic_au",
+      "country_code": "AU",
+      "country_name": "Australia",
+      "regulator": "ASIC",
+      "title": "26-201MR ASIC and APRA warn frontier AI awareness must turn to action",
+      "title_ja": null,
+      "url": "https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-201mr-asic-and-apra-warn-frontier-ai-awareness-must-turn-to-action",
+      "published_at": "2026-08-27",
+      "collected_at": "2026-11-15T13:15:01Z",
+      "updated_at": "2026-11-28T12:07:09Z",
+      "topics": [
+        "cyber_security",
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "The Australian Securities and Investments Commission (ASIC) and the Australian Prudential Regulation Authority (APRA) are urging financial market entities to move from gaining awareness of risks linked to frontier AI to taking decisive action.",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
       ]
     },
     {
