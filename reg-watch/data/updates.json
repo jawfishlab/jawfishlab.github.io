@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T09:53:25Z",
-  "item_count": 14,
-  "filtered_out_count": 108,
+  "generated_at": "2026-11-28T08:50:40Z",
+  "item_count": 19,
+  "filtered_out_count": 234,
   "sources": [
     {
       "source_id": "mas_sg",
@@ -45,9 +45,55 @@
       "country_name": "Indonesia",
       "regulator": "BI",
       "listing_url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/"
+    },
+    {
+      "source_id": "bot_th",
+      "country_code": "TH",
+      "country_name": "Thailand",
+      "regulator": "BOT",
+      "listing_url": "https://www.bot.or.th/en/news-and-media/news.html"
+    },
+    {
+      "source_id": "rbi_in",
+      "country_code": "IN",
+      "country_name": "India",
+      "regulator": "RBI",
+      "listing_url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx"
+    },
+    {
+      "source_id": "bok_kr",
+      "country_code": "KR",
+      "country_name": "South Korea",
+      "regulator": "BOK",
+      "listing_url": "https://www.bok.or.kr/eng/bbs/E0000634/news.rss?menuNo=400423"
     }
   ],
   "items": [
+    {
+      "id": "rbi_in-030871a25e0ea111",
+      "source_id": "rbi_in",
+      "country_code": "IN",
+      "country_name": "India",
+      "regulator": "RBI",
+      "title": "RBI Issues Amendment Directions on ‘Suspected Money Mule Accounts to Prevent Cyber-enabled Financial Frauds’",
+      "title_ja": null,
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64062",
+      "published_at": "2026-11-27",
+      "collected_at": "2026-11-28T08:50:40Z",
+      "updated_at": "2026-11-28T08:50:40Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "final_rule",
+      "summary_ja": "The Reserve Bank had issued the draft Reserve Bank of India (Know Your Customer) Amendment Directions, 2026 on September 11, 2026, for seeking feedback from stakeholders. The draft Amendment Directions proposed a Standard Operating Procedure (SOP) laying down a uniform, time-bound procedure for ban…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
     {
       "id": "asic_au-d272b5a507b88075",
       "source_id": "asic_au",
@@ -69,6 +115,56 @@
       "related_ids": [],
       "legacy_labels": [
         "Category: RegulatoryUpdate",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "rbi_in-4139e7a87cc24b8e",
+      "source_id": "rbi_in",
+      "country_code": "IN",
+      "country_name": "India",
+      "regulator": "RBI",
+      "title": "Governor, Reserve Bank of India meets Chairpersons and Managing Directors & Chief Executive Officers of select UCBs and Industry Representatives in Mumbai on November 23, 2026",
+      "title_ja": null,
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64031",
+      "published_at": "2026-11-23",
+      "collected_at": "2026-11-28T08:50:40Z",
+      "updated_at": "2026-11-28T08:50:40Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "As part of the Reserve Bank of India's continued engagement with regulated entities, the Governor today met in Mumbai with the Chairpersons and Managing Directors & Chief Executive Officers (MDs & CEOs) of select Urban Cooperative Banks (UCBs) across different tiers.",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "rbi_in-96d63ab9010f8027",
+      "source_id": "rbi_in",
+      "country_code": "IN",
+      "country_name": "India",
+      "regulator": "RBI",
+      "title": "Governor, Reserve Bank of India meets Managing Directors & Chief Executive Officers of select NBFCs, HFCs and Industry Representatives in Mumbai on November 23, 2026",
+      "title_ja": null,
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64032",
+      "published_at": "2026-11-23",
+      "collected_at": "2026-11-28T08:50:40Z",
+      "updated_at": "2026-11-28T08:50:40Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "As part of the Reserve Bank’s ongoing engagement with regulated entities, the Governor, Reserve Bank of India, today met in Mumbai with the Managing Directors and Chief Executive Officers (MDs & CEOs) of select Non-Banking Financial Companies (NBFCs), including Government NBFCs, Housing Finance Com…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
         "Domain: Banking"
       ]
     },
@@ -378,6 +474,34 @@
       ]
     },
     {
+      "id": "bot_th-01b3b1a74655e51a",
+      "source_id": "bot_th",
+      "country_code": "TH",
+      "country_name": "Thailand",
+      "regulator": "BOT",
+      "title": "Joint Press Release on Bank of Thailand and Monetary Authority of Singapore Sign Memorandum of Understanding on Cybersecurity Cooperation and Digital Fraud Protection",
+      "title_ja": null,
+      "url": "https://www.bot.or.th/en/news-and-media/news/news-20260724.html",
+      "published_at": "2026-07-24",
+      "collected_at": "2026-11-28T08:50:40Z",
+      "updated_at": "2026-11-28T08:50:40Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "The Bank of Thailand (BOT) and the Monetary Authority of Singapore (MAS) signed a Memorandum of Understanding (MoU) on Cybersecurity Cooperation and Digital Fraud Protection. The MoU formalises and expands the ongoing collaboration between MAS and BOT to strengthen cyber resilience and combat digit…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: AML",
+        "Category: FinancialCrime",
+        "Domain: Compliance"
+      ]
+    },
+    {
       "id": "mas_sg-e0f19c66d6212a9a",
       "source_id": "mas_sg",
       "country_code": "SG",
@@ -400,6 +524,36 @@
         "Category: CyberResilience",
         "Category: Forensics",
         "Domain: Banking"
+      ]
+    },
+    {
+      "id": "bot_th-80d2c0447d41551d",
+      "source_id": "bot_th",
+      "country_code": "TH",
+      "country_name": "Thailand",
+      "regulator": "BOT",
+      "title": "MOF-BOT Joint Press Conference on Thailand Readiness to Host the 2026 Annual Meetings of the International Monetary Fund and the World Bank Group",
+      "title_ja": null,
+      "url": "https://www.bot.or.th/en/news-and-media/news/news-20260714.html",
+      "published_at": "2026-07-14",
+      "collected_at": "2026-11-28T08:50:40Z",
+      "updated_at": "2026-11-28T08:50:40Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "The Ministry of Finance and the Bank of Thailand jointly proclaimed Thailand’s readiness to host the \"2026 Annual Meetings of the International Monetary Fund and the World Bank Group\" . This premier global economic and financial forum—often referred to as the \"Olympics of Finance\" —will take place…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: RegReporting",
+        "Category: Supervision",
+        "Domain: Compliance",
+        "Category: AML",
+        "Category: FinancialCrime"
       ]
     }
   ]

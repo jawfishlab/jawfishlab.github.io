@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "country_count": 8,
+  "regulator_count": 9,
+  "countries": [
+    {
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "country_name_ja": "シンガポール",
+      "regulators": [
+        {
+          "abbreviation": "MAS",
+          "name_ja": "シンガポール金融管理局",
+          "name": "Monetary Authority of Singapore",
+          "name_en": null,
+          "url": "https://www.mas.gov.sg/",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "country_code": "HK",
+      "country_name": "Hong Kong",
+      "country_name_ja": "香港",
+      "regulators": [
+        {
+          "abbreviation": "HKMA",
+          "name_ja": "香港金融管理局",
+          "name": "Hong Kong Monetary Authority",
+          "name_en": null,
+          "url": "https://www.hkma.gov.hk/",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "country_code": "JP",
+      "country_name": "Japan",
+      "country_name_ja": "日本",
+      "regulators": [
+        {
+          "abbreviation": "FSA",
+          "name_ja": "金融庁",
+          "name": "Financial Services Agency",
+          "name_en": null,
+          "url": "https://www.fsa.go.jp/",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "country_code": "AU",
+      "country_name": "Australia",
+      "country_name_ja": "オーストラリア",
+      "regulators": [
+        {
+          "abbreviation": "ASIC",
+          "name_ja": "オーストラリア証券投資委員会",
+          "name": "Australian Securities and Investments Commission",
+          "name_en": null,
+          "url": "https://www.asic.gov.au/",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "country_code": "MY",
+      "country_name": "Malaysia",
+      "country_name_ja": "マレーシア",
+      "regulators": [
+        {
+          "abbreviation": "BNM",
+          "name_ja": "マレーシア中央銀行",
+          "name": "Bank Negara Malaysia",
+          "name_en": null,
+          "url": "https://www.bnm.gov.my/",
+          "enabled": false
+        }
+      ]
+    },
+    {
+      "country_code": "ID",
+      "country_name": "Indonesia",
+      "country_name_ja": "インドネシア",
+      "regulators": [
+        {
+          "abbreviation": "OJK",
+          "name_ja": "インドネシア金融サービス庁",
+          "name": "Otoritas Jasa Keuangan",
+          "name_en": "Indonesia Financial Services Authority",
+          "url": "https://ojk.go.id/",
+          "enabled": true
+        },
+        {
+          "abbreviation": "BI",
+          "name_ja": "インドネシア銀行",
+          "name": "Bank Indonesia",
+          "name_en": null,
+          "url": "https://www.bi.go.id/",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "country_code": "TH",
+      "country_name": "Thailand",
+      "country_name_ja": "タイ",
+      "regulators": [
+        {
+          "abbreviation": "BOT",
+          "name_ja": "タイ中央銀行",
+          "name": "Bank of Thailand",
+          "name_en": null,
+          "url": "https://www.bot.or.th/",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "country_code": "IN",
+      "country_name": "India",
+      "country_name_ja": "インド",
+      "regulators": [
+        {
+          "abbreviation": "RBI",
+          "name_ja": "インド準備銀行",
+          "name": "Reserve Bank of India",
+          "name_en": null,
+          "url": "https://www.rbi.org.in/",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "country_code": "KR",
+      "country_name": "South Korea",
+      "country_name_ja": "韓国",
+      "regulators": [
+        {
+          "abbreviation": "BOK",
+          "name_ja": "韓国銀行",
+          "name": "Bank of Korea",
+          "name_en": null,
+          "url": "https://www.bok.or.kr/",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

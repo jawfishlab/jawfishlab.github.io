@@ -3,6 +3,7 @@
 
   var DATA_URL = "data/updates.json";
   var STATUS_URL = "data/status.json";
+  var SOURCES_URL = "data/sources.json";
   var PAGE_SIZE = 30;
   var DAY_MS = 24 * 60 * 60 * 1000;
   var MONTHS = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
@@ -27,7 +28,10 @@
     JP: "日本",
     AU: "オーストラリア",
     MY: "マレーシア",
-    ID: "インドネシア"
+    ID: "インドネシア",
+    TH: "タイ",
+    IN: "インド",
+    KR: "韓国"
   };
 
   var state = {
@@ -54,6 +58,7 @@
     count: document.getElementById("meta-count"),
     generated: document.getElementById("meta-generated"),
     checked: document.getElementById("meta-checked"),
+    sources: document.getElementById("meta-sources"),
     sortButtons: document.querySelectorAll("th button[data-sort]")
   };
 
@@ -326,6 +331,22 @@
     })
     .catch(function () {
       el.checked.textContent = "—";
+    });
+
+  // "収集対象" counts (enabled sources in config.yaml, via sources.json).
+  // Optional like status.json: on failure only the counts stay "—"; the link
+  // to the list page is static HTML.
+  fetch(SOURCES_URL, { cache: "no-cache" })
+    .then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.json();
+    })
+    .then(function (dir) {
+      var ok = dir && typeof dir.country_count === "number" && typeof dir.regulator_count === "number";
+      el.sources.textContent = ok ? dir.country_count + "か国・地域／" + dir.regulator_count + "当局" : "—";
+    })
+    .catch(function () {
+      el.sources.textContent = "—";
     });
 
   fetch(DATA_URL, { cache: "no-cache" })

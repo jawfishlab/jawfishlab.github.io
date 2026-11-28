@@ -5,7 +5,15 @@
     <link>https://jawfishlab.com/reg-watch/</link>
     <description>APAC金融規制当局の公式公表のうち、サイバーセキュリティ／AI／個人情報保護に関するものの一覧</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 25 Nov 2026 09:53:25 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 08:50:40 GMT</lastBuildDate>
+    <item>
+      <title>[IN/RBI] RBI Issues Amendment Directions on ‘Suspected Money Mule Accounts to Prevent Cyber-enabled Financial Frauds’</title>
+      <link>https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64062</link>
+      <guid isPermaLink="false">rbi_in-030871a25e0ea111</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>The Reserve Bank had issued the draft Reserve Bank of India (Know Your Customer) Amendment Directions, 2026 on September 11, 2026, for seeking feedback from stakeholders. The draft Amendment Directions proposed a Standard Operating Procedure (SOP) laying down a uniform, time-bound procedure for ban…</description>
+      <category>cyber_security</category>
+    </item>
     <item>
       <title>[AU/ASIC] 26-286MR ASIC to target cost of living and tech-related consumer harm in 2027</title>
       <link>https://www.asic.gov.au/about-asic/news-centre/find-a-media-release/2026-releases/26-286mr-asic-to-target-cost-of-living-and-tech-related-consumer-harm-in-2027</link>
@@ -13,6 +21,22 @@
       <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
       <description>ASIC will target financial misconduct that adds to cost of living pressures and the use of AI and other technology that causes consumer harm as part of its new enforcement priorities for 2027 .</description>
       <category>ai</category>
+    </item>
+    <item>
+      <title>[IN/RBI] Governor, Reserve Bank of India meets Chairpersons and Managing Directors &amp; Chief Executive Officers of select UCBs and Industry Representatives in Mumbai on November 23, 2026</title>
+      <link>https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64031</link>
+      <guid isPermaLink="false">rbi_in-4139e7a87cc24b8e</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <description>As part of the Reserve Bank of India's continued engagement with regulated entities, the Governor today met in Mumbai with the Chairpersons and Managing Directors &amp; Chief Executive Officers (MDs &amp; CEOs) of select Urban Cooperative Banks (UCBs) across different tiers.</description>
+      <category>cyber_security</category>
+    </item>
+    <item>
+      <title>[IN/RBI] Governor, Reserve Bank of India meets Managing Directors &amp; Chief Executive Officers of select NBFCs, HFCs and Industry Representatives in Mumbai on November 23, 2026</title>
+      <link>https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64032</link>
+      <guid isPermaLink="false">rbi_in-96d63ab9010f8027</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <description>As part of the Reserve Bank’s ongoing engagement with regulated entities, the Governor, Reserve Bank of India, today met in Mumbai with the Managing Directors and Chief Executive Officers (MDs &amp; CEOs) of select Non-Banking Financial Companies (NBFCs), including Government NBFCs, Housing Finance Com…</description>
+      <category>cyber_security</category>
     </item>
     <item>
       <title>[SG/MAS] MAS and Future of Finance Institute Set Out Initiatives in Support of National AI Missions for Financial Services</title>
@@ -113,11 +137,27 @@
       <category>ai</category>
     </item>
     <item>
+      <title>[TH/BOT] Joint Press Release on Bank of Thailand and Monetary Authority of Singapore Sign Memorandum of Understanding on Cybersecurity Cooperation and Digital Fraud Protection</title>
+      <link>https://www.bot.or.th/en/news-and-media/news/news-20260724.html</link>
+      <guid isPermaLink="false">bot_th-01b3b1a74655e51a</guid>
+      <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
+      <description>The Bank of Thailand (BOT) and the Monetary Authority of Singapore (MAS) signed a Memorandum of Understanding (MoU) on Cybersecurity Cooperation and Digital Fraud Protection. The MoU formalises and expands the ongoing collaboration between MAS and BOT to strengthen cyber resilience and combat digit…</description>
+      <category>cyber_security</category>
+    </item>
+    <item>
       <title>[SG/MAS] Monetary Authority of Singapore and Bank of Thailand Sign Memorandum of Understanding on Cybersecurity Cooperation and Digital Fraud Protection</title>
       <link>https://www.mas.gov.sg/news/media-releases/2026/mas-and-bot-sign-mou-on-cybersecurity-cooperation-and-digital-fraud-protection</link>
       <guid isPermaLink="false">mas_sg-e0f19c66d6212a9a</guid>
       <pubDate>Fri, 24 Jul 2026 00:00:00 GMT</pubDate>
       <description>The Monetary Authority of Singapore and the Bank of Thailand signed a Memorandum of Understanding (MoU) on Cybersecurity Cooperation and Digital Fraud Protection.</description>
+      <category>cyber_security</category>
+    </item>
+    <item>
+      <title>[TH/BOT] MOF-BOT Joint Press Conference on Thailand Readiness to Host the 2026 Annual Meetings of the International Monetary Fund and the World Bank Group</title>
+      <link>https://www.bot.or.th/en/news-and-media/news/news-20260714.html</link>
+      <guid isPermaLink="false">bot_th-80d2c0447d41551d</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <description>The Ministry of Finance and the Bank of Thailand jointly proclaimed Thailand’s readiness to host the "2026 Annual Meetings of the International Monetary Fund and the World Bank Group" . This premier global economic and financial forum—often referred to as the "Olympics of Finance" —will take place…</description>
       <category>cyber_security</category>
     </item>
   </channel>
