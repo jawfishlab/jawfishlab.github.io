@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-28T12:07:09Z",
-  "item_count": 19,
-  "filtered_out_count": 234,
+  "generated_at": "2026-11-28T13:14:43Z",
+  "item_count": 46,
+  "filtered_out_count": 235,
   "sources": [
     {
       "source_id": "mas_sg",
@@ -66,6 +66,27 @@
       "country_name": "South Korea",
       "regulator": "BOK",
       "listing_url": "https://www.bok.or.kr/eng/bbs/E0000634/news.rss?menuNo=400423"
+    },
+    {
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "listing_url": "https://www.csa.gov.sg/news-events/press-releases/rss.xml"
+    },
+    {
+      "source_id": "csa_sg_publications",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "listing_url": "https://www.csa.gov.sg/resources/publications/rss.xml"
+    },
+    {
+      "source_id": "csa_sg_consultations",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "listing_url": "https://www.csa.gov.sg/news-events/public-consultations/rss.xml"
     }
   ],
   "items": [
@@ -245,6 +266,59 @@
       ]
     },
     {
+      "id": "csa_sg_press-63ea3efa6cbcb4a3",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Media Statement On Recent Reported Cyber Incidents",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/media-statement-on-recent-reported-cyber-incidents",
+      "published_at": "2026-11-13",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "The Cyber Security Agency of Singapore (CSA) urges all organisations to take immediate steps to strengthen their cyber defences, as cyber threat actors increasingly exploit exposed vulnerabilities and poorly secured systems.",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "csa_sg_press-2df68b07d2f0b696",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "CSA Strengthens Support for Cybersecurity Innovation, From Research to Market",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/csa-strengthens-support-for-cybersecurity-innovation-from-research-to-market",
+      "published_at": "2026-11-10",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security",
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "[Singapore, 10 November 2026] – The Cyber Security Agency of Singapore (CSA) is strengthening efforts to turn cybersecurity research and innovation into practical solutions that address emerging threats and industry needs, in line with the Singapore Cybersecurity Strategy 2026. At CyberSG Innovatio…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: ThirdPartyRisk",
+        "Category: OperationalResilience"
+      ]
+    },
+    {
       "id": "mas_sg-c64def112ff4c9da",
       "source_id": "mas_sg",
       "country_code": "SG",
@@ -343,6 +417,82 @@
       ]
     },
     {
+      "id": "csa_sg_press-85945a1a43e90c10",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Conduct of the 4th United States–Singapore Cyber Dialogue, 13 October 2026",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/conduct-of-the-4th-united-states-singapore-cyber-dialogue-13-october-2026",
+      "published_at": "2026-10-15",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "Singapore and the United States convened the 4th U.S.-Singapore Cyber Policy Dialogue (USSCD) on 13 October 2026 on the sidelines of Singapore International Cyber Week 2026 at the ASEAN-Singapore Cybersecurity Centre of Excellence in Singapore.",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "csa_sg_press-a3c3487e2943c478",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Outcome Statement – Tabletop Exercise on Agentic AI Security and Control at the Singapore International Cyber Week 2026",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/outcome-statement-tabletop-exercise-on-agentic-ai-security-and-control-at-the-singapore-international-cyber-week-2026",
+      "published_at": "2026-10-15",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security",
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "Senior cyber policymakers, critical infrastructure leaders, and AI safety and security experts convened at SICW 2026 to examine the operational security of autonomous AI agents through a scenario-based exercise.",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "csa_sg_publications-0237e80fbc54a114",
+      "source_id": "csa_sg_publications",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Security Assessment Handbook for Agentic AI Coding Assistants",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/resources/publications/security-assessment-handbook-for-agentic-ai-coding-assistants",
+      "published_at": "2026-10-15",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "With the increasing adoption of AI across sectors and the greater autonomy of agentic AI capabilities (e.g., in formulating plans and taking actions independently), ensuring that AI systems are secure and trustworthy becomes ever more critical. To support secure adoption of AI:",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: RegReporting",
+        "Category: Supervision",
+        "Domain: Compliance"
+      ]
+    },
+    {
       "id": "asic_au-ad7c783a27cdea4b",
       "source_id": "asic_au",
       "country_code": "AU",
@@ -359,6 +509,300 @@
       ],
       "stage": "enforcement",
       "summary_ja": "Fortnum Private Wealth Ltd has been ordered by the Supreme Court of NSW to pay a $1.35 million penalty after admitting it failed to adequately manage cybersecurity risks across its financial advice network.",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "csa_sg_press-753ba507486ce0ba",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Memorandum of Understanding Between the Singapore Cyber Security Agency (SingCERT) and the Indian Computer Emergency Response Team (CERT-In) on Cybersecurity Cooperation",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/memorandum-of-understanding-between-the-singapore-cyber-security-agency-singcert-and-the-indian-computer-emergency-response-team-cert-in-on-cybersecurity-cooperation",
+      "published_at": "2026-10-14",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "Singapore and India took a significant step forward in strengthening bilateral cybersecurity cooperation through the signing of a Memorandum of Understanding (MOU) on Cooperation in the area of Cyber Security between the Singapore Cyber Emergency Response Team (SingCERT), under the Cyber Security A…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "csa_sg_press-ad635e60c2f548f8",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Singapore Commits S$30 Million to Strengthen Regional Cyber Resilience Against Emerging Cyber Threats",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/singapore-commits-s-30-million-to-strengthen-regional-cyber-resilience-against-emerging-cyber-threats",
+      "published_at": "2026-10-14",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security",
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "[14 October 2026] Singapore will commit a further $30 million over the next five years to strengthen regional cybersecurity capacity building through the Asean Cybersecurity Centre of Excellence (ASCCE). The investment will support efforts to build cybersecurity capabilities and strengthen cooperat…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "csa_sg_press-b78fb202871b6a21",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Memorandum of Understanding Between the Cyber Security Agency of Singapore and the Ministry of Digital Affairs of the Republic of Poland on Cooperation in the Area of Cybersecurity",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/memorandum-of-understanding-between-the-cyber-security-agency-of-singapore-and-the-ministry-of-digital-affairs-of-the-republic-of-poland-on-cooperation-in-the-area-of-cybersecurity",
+      "published_at": "2026-10-14",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "[Singapore, 14 October 2026] Singapore and Poland took a significant step forward in strengthening bilateral cybersecurity cooperation through the signing of a Memorandum of Understanding (MOU) between the Cyber Security Agency of Singapore (CSA) and the Ministry of Digital Affairs of the Republic…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: ThirdPartyRisk",
+        "Category: OperationalResilience"
+      ]
+    },
+    {
+      "id": "csa_sg_press-c1f40ea132587bba",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "CSA Sets Out Quantum-Safe Migration Timeline for Organisations and Launches New Grant",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/csa-sets-out-quantum-safe-migration-timeline-for-organisations-and-launches-new-grant",
+      "published_at": "2026-10-14",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "announcement",
+      "summary_ja": "[Singapore, 14 October 2026] The Cyber Security Agency of Singapore (CSA) has issued guidance on quantum-safe migration milestones for organisations in Singapore. The migration of Critical Information Infrastructure (CII) systems should be completed by 2031, while other organisations exposed to the…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: ThirdPartyRisk",
+        "Category: OperationalResilience",
+        "Category: RegReporting",
+        "Category: Supervision",
+        "Domain: Compliance"
+      ]
+    },
+    {
+      "id": "csa_sg_press-ed93390b15a01f08",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Cyber Incidents Remain Widespread: New Helpline Launched to Support Organisations",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/cyber-incidents-remain-widespread-new-helpline-launched-to-support-organisations",
+      "published_at": "2026-10-14",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "[Singapore, 14 October 2026] The Cyber Security Agency of Singapore (CSA) released the Singapore Cybersecurity Health Report 2025 today at the Singapore International Cyber Week (SICW) 2026. The report found that cyber incidents remain widespread, with almost nine in 10 organisations surveyed repor…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: RegReporting",
+        "Category: Supervision",
+        "Domain: Compliance"
+      ]
+    },
+    {
+      "id": "csa_sg_press-5663514a18003d89",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "AI Is Reshaping Cybersecurity Jobs, but Human Expertise Remains Critical: CSA Study",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/ai-is-reshaping-cybersecurity-jobs-but-human-expertise-remains-critical-csa-study",
+      "published_at": "2026-10-13",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security",
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "[Singapore, 13 October 2026] Artificial Intelligence (AI) is changing how cybersecurity professionals work, creating opportunities to improve cyber defence while driving demand for new skills and capabilities. A new study commissioned by the Cyber Security Agency of Singapore (CSA) found that 77% o…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: RegReporting",
+        "Category: Supervision",
+        "Domain: Compliance"
+      ]
+    },
+    {
+      "id": "csa_sg_press-5baca5fcf1ad9d42",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Singapore to Establish National Accreditation Framework to Raise Cybersecurity Professional Standards",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/singapore-to-establish-national-accreditation-framework-to-raise-cybersecurity-professional-standards",
+      "published_at": "2026-10-13",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "[Singapore, 13 October 2026] The Cyber Security Agency of Singapore (CSA) will take steps towards a national-level Cybersecurity Professional Accreditation Framework to establish clear professional standards, recognise the competencies of cybersecurity professionals, and raise the overall quality o…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "csa_sg_press-ba470f109b5bd67c",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Singapore Launches Cybersecurity Strategy 2026 to Strengthen National Cyber Resilience",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/singapore-launches-cybersecurity-strategy-2026-to-strengthen-national-cyber-resilience",
+      "published_at": "2026-10-13",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security",
+        "ai"
+      ],
+      "stage": "announcement",
+      "summary_ja": "1. [Singapore, 13 October 2026] Singapore’s Senior Minister, Coordinating Minister for National Security, and Minister for Home Affairs Mr K Shanmugam launched Singapore’s Cybersecurity Strategy (SCS) 2026 today at the Opening Ceremony of the 11 th Singapore International Cyber Week (SICW) at the S…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "csa_sg_press-ffa6a54ce21def9b",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Singapore Strengthens National Cyber Defence Through Enhanced Cybersecurity Command Centre",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/singapore-strengthens-national-cyber-defence-through-enhanced-cybersecurity-command-centre",
+      "published_at": "2026-10-13",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security",
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "[Singapore, 13 October 2026] Singapore is strengthening its national cyber defence capabilities through enhancements to the National Cybersecurity Command Centre (NC3). The enhanced NC3 will enable the Cyber Security Agency (CSA) to better anticipate and detect sophisticated cyber threats, strength…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "csa_sg_publications-87461c9ccaec2341",
+      "source_id": "csa_sg_publications",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Building Singapore’s Cybersecurity Workforce for the Age of AI",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/resources/publications/building-singapore-cybersecurity-workforce-for-the-age-of-ai",
+      "published_at": "2026-10-13",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security",
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "The Building Singapore’s Cybersecurity Workforce for the Age of AI report examines how Artificial Intelligence (AI) is reshaping Singapore’s cybersecurity workforce and identifies priorities for its continued development. It explores how organisations can harness the benefits of AI while sustaining…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "csa_sg_publications-a7ea6b005c3a1c99",
+      "source_id": "csa_sg_publications",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Singapore’s Cybersecurity Strategy 2026",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/resources/publications/singapore-cybersecurity-strategy-2026",
+      "published_at": "2026-10-13",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security",
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "Singapore’s Cybersecurity Strategy 2026 sets out Singapore’s approach to strengthening cybersecurity as a national capability and securing our digital future. As Singapore continues to embrace digital technologies, cybersecurity is critical to our national security, economic growth and public trust…",
       "summary_method": "extractive",
       "related_ids": [],
       "legacy_labels": [
@@ -527,6 +971,37 @@
       ]
     },
     {
+      "id": "csa_sg_press-4d1e9512834635f2",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Cybersecurity Code of Practice for Critical Information Infrastructure to be Updated to Address APT and AI-enabled Threats",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/cybersecurity-code-of-practice-for-critical-information-infrastructure-to-be-updated-to-address-apt-and-ai-enabled-threats",
+      "published_at": "2026-07-22",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security",
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "1 The Cyber Security Agency of Singapore (CSA) will be releasing the updated Cybersecurity Code of Practice (CCoP) for Critical Information Infrastructure (CII) [1] and a new CCoP for Cloud Services in the later part of this year. This was announced by Mrs Josephine Teo, Minister for Digital Develo…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: ThirdPartyRisk",
+        "Category: OperationalResilience",
+        "Category: RegReporting",
+        "Category: Supervision",
+        "Domain: Compliance"
+      ]
+    },
+    {
       "id": "bot_th-80d2c0447d41551d",
       "source_id": "bot_th",
       "country_code": "TH",
@@ -554,6 +1029,279 @@
         "Domain: Compliance",
         "Category: AML",
         "Category: FinancialCrime"
+      ]
+    },
+    {
+      "id": "csa_sg_press-cd8e6ffe6ca37d92",
+      "source_id": "csa_sg_press",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "CSA’s Initiatives to Strengthen Singapore's Cyber Defences Amid an AI-Driven Threat Landscape",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/news-events/press-releases/csa-s-initiatives-to-strengthen-singapore-s-cyber-defences-amid-an-ai-driven-threat-landscape",
+      "published_at": "2026-06-30",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security",
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "1 The Cyber Security Agency of Singapore (CSA) released the Singapore Cyber Landscape (SCL) 2025/2026 publication today. It highlights the initiatives that were put in place to strengthen Singapore's cyber resilience against an increasingly complex and AI-enabled global threat landscape. The public…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: RegReporting",
+        "Category: Supervision",
+        "Domain: Compliance"
+      ]
+    },
+    {
+      "id": "csa_sg_publications-b6def5e62dbffc7f",
+      "source_id": "csa_sg_publications",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Singapore Cyber Landscape 2025/2026",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/resources/publications/singapore-cyber-landscape-2025-2026",
+      "published_at": "2026-06-30",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "Read about the Singapore Cyber Landscape 2025/2026 as a flipbook. (opens in new tab)",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "csa_sg_publications-c3c6b0a5aa1faf47",
+      "source_id": "csa_sg_publications",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Securing Agentic AI – An Addendum to the Guidelines and Companion Guide on Securing AI Systems",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/resources/publications/addendum-on-securing-ai-systems",
+      "published_at": "2026-06-17",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "ai"
+      ],
+      "stage": "guidance",
+      "summary_ja": "Artificial intelligence is driving efficiency and innovation across various sectors. To reap the benefits of AI, users need to trust that AI functions as originally intended and that these systems remain secure. In 2024, CSA published the Guidelines and Companion Guide on Securing AI Systems to hel…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: RegReporting",
+        "Category: Supervision",
+        "Domain: Compliance"
+      ]
+    },
+    {
+      "id": "csa_sg_publications-3bef5a24bd88b0c5",
+      "source_id": "csa_sg_publications",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Guide On Conducting Threat Identification And Assessing Effectiveness Of Controls For Smart Buildings",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/resources/publications/guide-on-conducting-threat-identification-and-assessing-effectiveness-of-controls-for-smart-buildings",
+      "published_at": "2026-03-31",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "1. The Cyber Security Agency of Singapore (CSA), in support of Singapore’s Smart Nation drive, will be publishing the “Guide on Conducting Threat Identification and Assessing Effectiveness of Controls for Smart Buildings” (“the Guide”) in March 2026. The Guide aims to provide building owners and fa…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "csa_sg_publications-e89bf71770283c05",
+      "source_id": "csa_sg_publications",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Recommendations To Mitigate Private 5G Infrastructure Security Threats",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/resources/publications/recommendations-to-mitigate-private-5g-infrastructure-security-threats",
+      "published_at": "2025-12-31",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "This publication by the Cyber Security Agency of Singapore, developed in consultation with GSMA and Singtel, provides cybersecurity recommendations for enterprises deploying private 5G networks.",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: RegReporting",
+        "Category: Supervision",
+        "Domain: Compliance"
+      ]
+    },
+    {
+      "id": "csa_sg_publications-0e885042bb02538e",
+      "source_id": "csa_sg_publications",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Securing Agentic AI: A Discussion Paper",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/resources/publications/securing-agentic-ai-a-discussion-paper",
+      "published_at": "2025-10-24",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "ai"
+      ],
+      "stage": "unknown",
+      "summary_ja": "Agentic AI systems can plan, take actions, and interact with external tools or other agents semi-autonomously without constant human prompting. This autonomy magnifies both the benefits (e.g. efficiency/productivity) and the risks (e.g. security failures) for business, government, and society. AI s…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: ThirdPartyRisk",
+        "Category: OperationalResilience"
+      ]
+    },
+    {
+      "id": "csa_sg_publications-69665bd241adecc7",
+      "source_id": "csa_sg_publications",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Singapore Cyber Landscape 2024/2025",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/resources/publications/singapore-cyber-landscape-2024-2025",
+      "published_at": "2025-09-03",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "unknown",
+      "summary_ja": "Read about the Singapore Cyber Landscape 2024/2025 as a flipbook. (opens in new tab)",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking"
+      ]
+    },
+    {
+      "id": "csa_sg_consultations-b4920d631c382e1c",
+      "source_id": "csa_sg_consultations",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Public Consultation on the Cybersecurity (Amendment) Bill",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/legislation/consultations/public-consultation-on-the-cybersecurity--amendment--bill",
+      "published_at": "2024-04-02",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "consultation",
+      "summary_ja": "Issued by the Cyber Security Agency of Singapore 2 April 2024 The Cyber Security Agency of Singapore (“CSA”) held a public consultation on the draft Cybersecurity (Amendment) Bill (“Bill”) from 15 December 2023 to 15 January 2024.",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: ThirdPartyRisk",
+        "Category: OperationalResilience",
+        "Category: RegReporting",
+        "Category: Supervision",
+        "Domain: Compliance"
+      ]
+    },
+    {
+      "id": "csa_sg_consultations-4aa1fdc1fadd16f6",
+      "source_id": "csa_sg_consultations",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "Industry Consultation on the Licensing Framework for Cybersecurity Service Providers",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/legislation/consultations/industry-consultation-on-the-licensing-framework-for-cybersecurity-service-providers",
+      "published_at": "2022-04-11",
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "consultation",
+      "summary_ja": "The Cyber Security Agency of Singapore (“CSA”) held an industry consultation exercise on the proposed licence conditions and draft subsidiary legislation under the licensing framework for cybersecurity service providers found in Part 5 of the Cybersecurity Act (the “Act”) from 20 September 2021 to…",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: RegReporting",
+        "Category: Supervision",
+        "Domain: Compliance"
+      ]
+    },
+    {
+      "id": "csa_sg_consultations-4f2b9780e1873efc",
+      "source_id": "csa_sg_consultations",
+      "country_code": "SG",
+      "country_name": "Singapore",
+      "regulator": "CSA",
+      "title": "CLS(MD) Consultation",
+      "title_ja": null,
+      "url": "https://www.csa.gov.sg/our-programmes/certification-and-labelling-schemes/cls-md/consultation",
+      "published_at": null,
+      "collected_at": "2026-11-28T13:14:43Z",
+      "updated_at": "2026-11-28T13:14:43Z",
+      "topics": [
+        "cyber_security"
+      ],
+      "stage": "consultation",
+      "summary_ja": "If you're unsure if something is a scam, call ScamShield (opens in new tab) at 1799. Industry Consultation for the Proposed Framework and Implementation of the Cybersecurity Labelling Scheme for Medical Devices, CLS(MD).",
+      "summary_method": "extractive",
+      "related_ids": [],
+      "legacy_labels": [
+        "Category: CyberResilience",
+        "Category: Forensics",
+        "Domain: Banking",
+        "Category: RegReporting",
+        "Category: Supervision",
+        "Domain: Compliance"
       ]
     }
   ]
